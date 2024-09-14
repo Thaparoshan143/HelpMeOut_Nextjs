@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        theme : "#A020F0",
+        "theme-a" : "#A020F077",
+        "theme-alt" : "#800080"
       },
     },
   },
