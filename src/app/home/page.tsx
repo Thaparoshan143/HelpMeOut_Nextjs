@@ -24,7 +24,7 @@ const CouldNotFind = () =>
     <div className="w-full flex flex-col justify-around items-center h-[10rem] my-10">
       <h1 className="text-theme text-2xl">Couldnt find !! What you are looking for? <span className="inline-block text-xl text-black underline">Visit Soon</span></h1>
       <hr className="w-[80%] border-theme border-2 rounded-xl"/>
-      <h1>Got any other resources you want to recommend <a href={"/contact"} className="m-2 p-4 px-6 bg-theme hover:scale-x-[105%] text-white rounded-xl">Contribute</a></h1>
+      <h1>Got any other resources you want to recommend <a href={"/contact"} className="m-2 p-3 px-6 bg-theme hover:scale-x-[105%] text-white rounded-xl">Contribute</a></h1>
     </div>
   )
 }

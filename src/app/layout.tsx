@@ -23,7 +23,7 @@ export default function RootLayout({
         <Image 
           src={Bg}
           alt="bg"
-          className="z-[-5] opacity-50 absolute w-full h-full object-cover"
+          className="z-[-5] opacity-40 absolute w-full h-full object-cover"
         />
         <Navbar />
         {children}

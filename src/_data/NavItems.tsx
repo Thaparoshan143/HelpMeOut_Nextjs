@@ -4,8 +4,8 @@ export const _navItems = [
         url : "/home"
     },
     {
-        title : "Explore",
-        url : "/explore"
+        title : "Popular",
+        url : "/popular"
     },
     {
         title : "Contact",
