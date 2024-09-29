@@ -1,7 +1,6 @@
 import "./globals.css";
 import Image from 'next/image'
 import Bg from '../images/bg.png'
-import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
