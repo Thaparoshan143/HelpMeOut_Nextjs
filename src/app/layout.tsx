@@ -2,7 +2,13 @@ import "./globals.css";
 import Image from 'next/image'
 import Bg from '../images/bg.png'
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
+export const metadata = {
+  title: "Help me out",
+  description: "One Stop for resources",
+}
 
 export default function RootLayout({
   children,
@@ -13,17 +19,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased` + " bg-[#ddd] min-h-[100vh] flex flex-col justify-around items-center"}
+        className={`antialiased` + " bg-[#ddd] h-[100vh] min-h-[100vh] flex flex-col justify-around items-center w-full"}
       >
-      <Image 
-        src={Bg}
-        alt="bg"
-        width={500}
-        height={500}
-        className="z-[-5] opacity-50 absolute w-full h-full"
-      />
+        <Image 
+          src={Bg}
+          alt="bg"
+          className="z-[-5] opacity-50 absolute w-full h-full object-cover"
+        />
+        <Navbar />
         {children}
-      <Link href={"/home"} className="text-2xl text-white bg-theme inline-block p-2 px-6 rounded-xl hover:px-[5rem] hover:scale-[105%] transition-all duration-200 hover:rounded-[3rem]">Explore</Link>
+        <Footer />
       </body>
     </html>
   );

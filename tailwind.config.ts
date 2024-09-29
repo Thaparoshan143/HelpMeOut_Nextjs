@@ -15,6 +15,10 @@ const config: Config = {
         "theme-a" : "#A020F077",
         "theme-alt" : "#800080"
       },
+      fontFamily : 
+      {
+        "main" : 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;'
+      }
     },
   },
   plugins: [],
