@@ -23,7 +23,8 @@ export const _categoriesItems = [
 
 export const _subCategoriesItems = [
     {
-        "programming" : [
+        title : "programming",
+        items : [
                 {
                     title : "Graphics and/or APIs",
                     description : "",

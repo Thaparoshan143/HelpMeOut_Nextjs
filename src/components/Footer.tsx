@@ -3,7 +3,7 @@ import { GiSelfLove } from 'react-icons/gi'
 
 const Footer = () => {
   return (
-    <footer className="w-full min-h-[7rem] flex flex-col justify-evenly items-center bg-theme text-white">
+    <footer className="w-full min-h-[7rem] flex flex-col justify-evenly items-center bg-theme text-white mt-10">
         <div>
             Designed with &nbsp; <GiSelfLove className="text-red-700 text-4xl font-bold inline"/> &nbsp; by Roshan Thapa
             <div className="text-white">

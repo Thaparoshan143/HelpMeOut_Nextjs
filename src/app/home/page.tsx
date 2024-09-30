@@ -1,7 +1,8 @@
 import { _categoriesItems } from "@/_data/CategoriesItems";
 import { CardCategory } from "@/components/Card";
 
-export default function Home() {
+export default function Home() 
+{
   return (
     <div className="flex flex-col items-center justify-evenly ">
       <h1 className="text-3xl text-theme font-bold font-main my-10 underline">Available Catergories</h1>

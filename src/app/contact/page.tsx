@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedinIn, FaYoutube } from 'react-icons/fa6';
 
-export default function Contact() {
+export default function Contact() 
+{
   return (
     <div className="w-full text-2xl flex flex-col justify-evenly items-center">
       <h1 className="text-5xl text-theme font-bold font-main mt-[5rem] uppercase">Well! <span className="text-black text-xl">Let get connected</span></h1>
@@ -13,7 +14,7 @@ export default function Contact() {
           <span>Email : <a href="mailto:thaparoshan3722@gmail.com" >thaparoshan3722@gmail.com</a></span>
       </div>
       <hr className="w-[40%] border-theme border-2 rounded-xl my-[2rem]"/>
-      <div className="text-theme font-bold text-4xl m-6 flex flex-col justify-around items-center min-h-[25vh]"><span>Designed</span><span> by </span> <span> Roshan Thapa</span> </div>
+      <div className="text-theme font-bold text-4xl m-6 flex flex-col justify-around items-center min-h-[20vh]"><span>Developed & Designed</span><span> by </span> <span className="font-main uppercase"> Roshan Thapa</span><span className="text-black text-sm m-0 font-light"> with <a className="font-bold underline" href={"https://nextjs.org/"}>Next.js</a> hosted on <a className="font-bold underline" href={"https://vercel.com/home"}>Vercel</a></span> </div>
       <hr className="w-[20%] border-theme border-2 rounded-xl my-[2rem]"/>
     </div>
   );
