@@ -22,8 +22,7 @@ const SeekOtherCategory = () =>
   return (
     <div className="w-full flex flex-col justify-around items-center min-h-[10rem] my-10">
       <hr className="w-[50%] border-theme border-2 rounded-xl"/>
-      <h1>Search on Category : <a href={"/home"} className="p-2 px-6 bg-theme hover:scale-x-[105%] text-white rounded-xl">Category</a></h1>
-      <h1 className="text-theme text-2xl">Didnt find the resources ! <span className="inline-block text-xl text-black underline">here</span></h1>
+      <h1 className="text-theme text-2xl">Didnt find here ? <span className="text-black text-sm">Search by: <a href={"/home"} className="p-2 px-4 text-xl bg-theme hover:scale-x-[105%] text-white rounded-xl">Category</a></span></h1>
     </div>
   )
 }

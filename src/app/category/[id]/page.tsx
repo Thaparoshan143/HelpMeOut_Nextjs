@@ -15,8 +15,7 @@ export default function CategoryPage()
     // console.log(category);
     return (
        <>
-        <h1 className="text-3xl text-theme font-bold font-main my-10 uppercase">{category}</h1>
-        <hr className="w-[30%] border-theme border-2 rounded-xl my-[2rem]"/>
+        <h1 className="text-3xl bg-theme w-full text-center text-white font-bold font-main py-[2.5rem] mb-6 uppercase">{category}</h1>
         <div className="flex flex-col justify-evenly items-center w-full">
         {
             _subCategoriesItems.map(({title, items} : any)=>
@@ -34,11 +33,10 @@ export default function CategoryPage()
             _subCategoriesItems.find(item => item.title === category) == undefined ? 
             <>
                 <h1 className="text-5xl text-theme font-bold font-main uppercase my-8">Under Construction</h1>
-                <BiErrorCircle className="text-theme text-[12rem] m-6" />
+                <BiErrorCircle className="text-theme-cont text-[12rem] m-6" />
                 <h1 className="text-5xl text-theme font-bold font-main uppercase">OOPS! <span className="text-black text-xl">cant resolve it.</span></h1>
-                <hr className="w-[30%] border-theme border-2 rounded-xl my-[2rem]"/>
+                <hr className="w-[30%] border-theme rounded-xl my-[2rem]"/>
                 <Link href={"/home"} className="text-2xl text-white bg-theme inline-block p-2 px-4 rounded-lg hover:scale-[105%] transition-all duration-200 ">Home</Link>
-                <span className="inline-block text-xl text-black my-10">! Visit Soon !</span>
             </>
             :
             <></>

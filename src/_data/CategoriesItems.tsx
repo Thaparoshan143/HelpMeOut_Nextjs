@@ -619,7 +619,7 @@ export const _subCategoriesItems = [
                             url : "https://nkiriiii.jamsbase.com/"
                         },
                         {
-                            title : "https://yts.mx/",
+                            title : "YTS",
                             description: "Torrent magnet Download",
                             url : "https://yts.mx/"
                         },
