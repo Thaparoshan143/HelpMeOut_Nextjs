@@ -26,7 +26,7 @@ const CardSubCategory = ({title, description, links} : any) =>
 {
   return (
     <>
-    <h1 className="text-white font-bold text-2xl text-center my-6">{title}</h1>
+    <h1 className="text-black font-bold text-2xl text-center my-6">{title}</h1>
     <p>{description}</p>
     <div className="grid grid-cols-1 gap-6 place-content-center xl:grid-cols-4 sm:grid-cols-2">
         {
