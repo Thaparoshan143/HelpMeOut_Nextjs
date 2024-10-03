@@ -1,42 +1,3 @@
-export const _categoriesItems = [
-    {
-        category : "Programming",
-        url : "/category/programming"
-    },
-    {
-        category : "Web Development",
-        url : "/category/webdevelopment"
-    },
-    {
-        category : "Entertaiment",
-        url : "/category/entertainment"
-    },
-    {
-        category : "Miscelleneous",
-        url : "/category/miscelleneous"
-    },
-    {
-        category : "Day Life",
-        url : "/category/daylife"
-    },
-    {
-        category : "Explorer",
-        url : "/category/explorer"
-    },
-    {
-        category : "Finance",
-        url : "/category/finance"
-    },
-    {
-        category : "Some Github Repos",
-        url : "/category/gitrepos"
-    },
-    {
-        category : "Study Materials",
-        url : "/category/studymaterials"
-    },
-]
-
 export const _subCategoriesItems = [
     {
         title : "programming",
@@ -298,7 +259,7 @@ export const _subCategoriesItems = [
         ]
     },
     {
-        title : "webdevelopment",
+        title : "web-development",
         items : [
             {
                 title : "HTML, CSS & JS",
@@ -409,7 +370,7 @@ export const _subCategoriesItems = [
         ]
     },
     {
-        title : "gitrepos",
+        title : "github-repos",
         items : [
             {
                 title : "NEPSE",
@@ -479,7 +440,7 @@ export const _subCategoriesItems = [
         ]
     },
     {
-        title : "studymaterials",
+        title : "study-materials",
         items : [
             {
                 title : "GRE",
