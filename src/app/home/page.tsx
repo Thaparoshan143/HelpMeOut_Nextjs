@@ -1,19 +1,40 @@
-import { _categoriesItems } from "@/_data/CategoriesItems";
+import { _subCategoriesItems } from "@/_data/CategoriesItems";
 import { CardCategory } from "@/components/Card";
 import Link from "next/link";
 
 export default function Home() 
 {
+  let catTitles : string[] = [];
+  let urls : string[] = [];
+  let itemsString : string[] = []
+
+  _subCategoriesItems.forEach(({title, items}) => {
+    urls.push(title)
+    let tempString : string[] = [];
+    items.forEach(({title})=>
+      {
+        tempString.push(title)
+      })
+    itemsString.push(tempString.join(", "))
+  })
+
+  catTitles = urls.map((tit : string) => {
+    return tit.split("-").join(" ");
+  })
+
+  urls = urls.map((tit : string) => {
+    return "category/" + tit;
+  })
+
   return (
     <div className="flex flex-col items-center justify-evenly ">
       <h1 className="text-3xl text-theme font-bold font-main my-10 underline uppercase">Available Catergories</h1>
       <div className="grid grid-cols-4 gap-6 place-content-center xl:grid-cols-3 sm:grid-cols-2">
         {
-          _categoriesItems.map(({category, url}) => {
-            return <CardCategory key={category} category={category} url={url} />
+          catTitles.map((cat, ind) => {
+            return <CardCategory key={cat} category={cat} url={urls[ind]} description={itemsString[ind]} />
           })
         }
-
       </div>
       <CouldNotFind />
       <Link href={"/"} className="text-2xl text-white bg-theme inline-block p-2 px-6 rounded-xl hover:px-[5rem] hover:scale-[105%] transition-all duration-200 hover:rounded-[3rem]">Landing Page</Link>
