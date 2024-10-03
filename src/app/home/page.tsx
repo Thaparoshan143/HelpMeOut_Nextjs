@@ -6,11 +6,11 @@ export default function Home()
 {
   let catTitles : string[] = [];
   let urls : string[] = [];
-  let itemsString : string[] = []
+  const itemsString : string[] = []
 
   _subCategoriesItems.forEach(({title, items}) => {
     urls.push(title)
-    let tempString : string[] = [];
+    const tempString : string[] = [];
     items.forEach(({title})=>
       {
         tempString.push(title)
