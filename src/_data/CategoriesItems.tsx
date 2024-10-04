@@ -52,6 +52,16 @@ export const _subCategoriesItems = [
                             url : "https://learnopengl.com/"
                         },
                         {
+                            title : "OpenGL Tutorials",
+                            description: "This site is dedicated to tutorials for OpenGL 3.3 and later !",
+                            url : "https://www.opengl-tutorial.org/"
+                        },
+                        {
+                            title : "OpenGL Tut and Fundamentals",
+                            description: "This page contains fundamental OpenGL tutorials and notes",
+                            url : "https://www.songho.ca/opengl/index.html"
+                        },
+                        {
                             title : "OGLDEV",
                             description: "Place to learn Graphics API (OpenGL/Vulkan)",
                             url : "https://ogldev.org/"
@@ -76,6 +86,11 @@ export const _subCategoriesItems = [
                             title : "Vulkan Repo for M1 Apple Silicon",
                             description: "",
                             url : "https://github.com/oceanzhang88/Vulkan-Rasterizer-Apple-Silicon?tab=readme-ov-file"
+                        },
+                        {
+                            title : "Setup Vulkan on MacOS",
+                            description: "",
+                            url : "https://www.youtube.com/watch?v=C7YgtkR9KLg&t=58s&ab_channel=LuTheCoder"
                         },
                         {
                             title : "Vulkan Essentials",
@@ -117,6 +132,11 @@ export const _subCategoriesItems = [
                             title : "Kaggle",
                             description: "For data science and Machine Learning",
                             url : "https://www.kaggle.com/"
+                        },
+                        {
+                            title : "Keras",
+                            description: "For data science and Machine Learning",
+                            url : "https://keras.io/"
                         },
                         {
                             title : "Miniconda",
@@ -411,6 +431,22 @@ export const _subCategoriesItems = [
                         ]
             },
             {
+                title : "External resources",
+                description : "",
+                links : [
+                        {
+                            title : "Nepalindata",
+                            description: "",
+                            url : "https://www.nepalindata.com/"
+                        },
+                        {
+                            title : "MIT OpenCourseWare",
+                            description: "It is online publication of materials",
+                            url : "https://ocw.mit.edu/"
+                        },
+                        ]
+            },
+            {
                 title : "Roadmaps & Guides",
                 description : "",
                 links : [
@@ -418,7 +454,8 @@ export const _subCategoriesItems = [
                             title : "Developer Roadmap",
                             description: "",
                             url : "https://roadmap.sh/"
-                        }
+                        },
+  
                         ]
             },
             {
@@ -443,24 +480,76 @@ export const _subCategoriesItems = [
         title : "study-materials",
         items : [
             {
-                title : "GRE",
+                title : "Computer Enginnering",
                 description : "",
                 links : [
                         {
                             title : "GRE free resource repo",
                             description: "",
                             url : "https://github.com/grand-27-master/GRE-Free-resources"
-                        }
+                        },
+                        {
+                            title : "Computer Engineering Syllabus (NEC)",
+                            description: "",
+                            url : "https://nec.gov.np/uploads/brochure/9cg9z4cTKe220920011047.pdf"
+                        },
+
                         ]
             },
             {
-                title : "Computer Architecture",
+                title : "Computer Graphics",
                 description : "",
                 links : [
+                        {
+                            title : "Real-Time Rendering",
+                            description: "",
+                            url : "https://www.realtimerendering.com/"
+                        },
+                        {
+                            title : "Graphics Processor Architecture",
+                            description: "",
+                            url : "https://picture.iczhiku.com/resource/eetop/WHKdgQhRWGRojBxB.pdf"
+                        },
+                        {
+                            title : "OpenGL & Web Dev",
+                            description: "OpenGL Graphics | Website Development & More!",
+                            url : "https://www.programmingcreatively.com/index.php"
+                        },
+                        ]
+            },
+            {
+                title : "Computer Science",
+                description : "",
+                links : [
+                        {
+                            title : "CS Course",
+                            description: "Associate Professor of Computer Science at Memorial University YT",
+                            url : "https://www.youtube.com/@DaveChurchill/featured"
+                        },
+                        {
+                            title : "CS, CG ML and Art",
+                            description: "",
+                            url : "https://www.codeintrinsic.com/"
+                        },
+                        {
+                            title : "Mike Shah",
+                            description: "Senior Lecturer at Yale University at the School of Engineering & Applied Science",
+                            url : "https://www.mshah.io/"
+                        },
+                        {
+                            title : "GPU Architecture and Programming Models",
+                            description: "An Intro to GPU Architecture and Programming Models I Tim Warburton, Virginia Tech YT",
+                            url : "https://www.youtube.com/watch?v=lGmPy8xpT4E&ab_channel=ArgonneMeetings%2CWebinars%2CandLectures"
+                        },
                         {
                             title : "CPU",
                             description: "Putting the 'you' in CPU",
                             url : "https://cpu.land/"
+                        },
+                        {
+                            title : "Game Engine",
+                            description: "Website to learn about game engine development",
+                            url : "https://www.haroldserrano.com/"
                         }
                         ]
             },
@@ -474,10 +563,10 @@ export const _subCategoriesItems = [
                             url : "https://www.youtube.com/watch?v=sx0yyQqkpqo&list=PLbFrQnW0BNMUkAFj4MjYauXBPtO3I9O_k&ab_channel=LearnKoreanwithGO%21BillyKorean"
                         },
                         {
-                            title : "Billy Korean",
+                            title : "Salik Adhikari",
                             description: "",
-                            url : "https://www.youtube.com/watch?v=sx0yyQqkpqo&list=PLbFrQnW0BNMUkAFj4MjYauXBPtO3I9O_k&ab_channel=LearnKoreanwithGO%21BillyKorean"
-                        }
+                            url : "https://www.youtube.com/watch?v=dcIU8NXhfoE&ab_channel=SalikAdhikari-KoreanTeacher"
+                        },
                         ]
             }
         ]
@@ -513,16 +602,183 @@ export const _subCategoriesItems = [
         title : "finance",
         items : [
             {
-                title : "Stock Market",
+                title : "Market & Financial Institution",
                 description : "",
                 links : [
                         {
                             title : "Trading View",
                             description: "",
                             url : "https://www.tradingview.com/"
-                        }
+                        },
+                        {
+                            title : "Bank Byaj",
+                            description: "",
+                            url : "https://bankbyaj.com/"
+                        },
+                        {
+                            title : "Guru Focus",
+                            description: "",
+                            url : "https://www.gurufocus.com/"
+                        },
                         ]
+            },
+            {
+                title : "Stock Market Analysis",
+                description : "",
+                links : [
+                        {
+                            title : "NEA Power Trade Agreement",
+                            description: "Contains the list of hydropower with capacity, ppa date and commercial operation date",
+                            url : "https://www.nea.org.np/admin/assets/uploads/supportive_docs/72250302.pdf"
+                        },
+                        {
+                            title : "Bank and Financial Institution Act",
+                            description: "nrb use only ",
+                            url : "https://www.nea.org.np/admin/assets/uploads/supportive_docs/72250302.pdfhttps://www.nrb.org.np/contents/uploads/2019/12/Bank_And_Financial_Instituion_Act_2017_-_English_Version_20190311-1.pdf"
+                        },
+                        {
+                            title : "Urja Khabar",
+                            description: "news about energy related in nepal",
+                            url : "https://www.urjakhabar.com/en"
+                        },
+                        {
+                            title : "Nepal Water Resource Portal",
+                            description: "Hydropower different status and state",
+                            url : "https://nwr-gis.ekbana.net/"
+                        },
+                        {
+                            title : "Nepal Hydropower Portal",
+                            description: "Hydropower different status and state",
+                            url : "https://hydro.naxa.com.np/"
+                        },
+
+                        ]
+            },
+            {
+                title : "Stock Fiancial Portals",
+                description : "",
+                links : [
+                    {
+                        title : "Sharesansar",
+                        description: "financial portal",
+                        url : "https://www.sharesansar.com/"
+                    },
+                    {
+                        title : "Merolagani",
+                        description: "financial portal",
+                        url : "https://merolagani.com/"
+                    },
+                    {
+                        title : "Nepsealpha",
+                        description: "financial portal",
+                        url : "https://nepsealpha.com/"
+                    },
+                    {
+                        title : "Nepsetrading",
+                        description: "financial portal",
+                        url : "https://www.nepsetrading.com/"
+                    },
+                    {
+                        title : "Chukul",
+                        description: "financial portal",
+                        url : "https://chukul.com/"
+                    },
+                    {
+                        title : "Nepali Paisa",
+                        description: "financial portal",
+                        url : "https://www.nepalipaisa.com/"
+                    },
+
+                    ]
             }
+        ]
+    },
+    {
+        title : "day-life",
+        items : [
+            {
+                title : "Home & Lifestyle",
+                description : "",
+                links : [
+                        {
+                            title : "Home Appliance",
+                            description: "",
+                            url : "https://www.youtube.com/@BoulevardHome/featured"
+                        },
+
+                        ]
+            },
+            {
+                title : "Good to Know",
+                description : "",
+                links : [
+                        {
+                            title : "Income Tax and rate",
+                            description: "",
+                            url : "https://www.youtube.com/watch?v=aPzJ0_7FfsM&ab_channel=DreamBusiness%3ACASurajDhakal"
+                        },
+
+                        ]
+            },
+        ]
+    },
+    {
+        title : "Buy and Sell",
+        items : [
+            {
+                title : "E-commerce",
+                description : "",
+                links : [
+                        {
+                            title : "Daammi Deal",
+                            description: "",
+                            url : "https://www.daamideal.com/"
+                        },
+                        {
+                            title : "Hardware Pasal",
+                            description: "",
+                            url : "https://www.hardwarepasal.com/"
+                        },
+                        {
+                            title : "Nepsouk",
+                            description: "",
+                            url : "https://nepsouk.com/"
+                        },
+                        {
+                            title : "Yarsa Bazar",
+                            description: "",
+                            url : "https://www.yarsabazar.com/"
+                        },
+                        {
+                            title : "Deal Ayo",
+                            description: "",
+                            url : "https://dealayo.com/"
+                        },
+                        {
+                            title : "Pasal Nepal",
+                            description: "",
+                            url : "https://pasalnepal.com/"
+                        },
+
+                        ]
+            },
+            {
+                title : "Second Hand (Buy/Sell)",
+                description : "",
+                links : [
+                        {
+                            title : "Sabkophone",
+                            description: "",
+                            url : "https://sabkophone.com/"
+                        },
+                        {
+                            title : "Hamrobazaar",
+                            description: "",
+                            url : "https://hamrobazaar.com/"
+                        },
+
+                        ]
+            },
         ]
     },
     {
