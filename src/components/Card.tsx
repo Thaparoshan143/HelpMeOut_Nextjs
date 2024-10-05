@@ -5,10 +5,10 @@ const Card = ({title, name, description, url} : any) =>
 {
   return (
     <div className="p-2 m-2 shadow-sm border-[0.1rem] hover:border-theme-a hover:shadow-theme-alt inset-x-4 shadow-theme rounded-xl bg-[#eee] flex flex-col justify-evenly items-center relative min-w-[15rem] w-[20rem] min-h-[6rem]">
-        <a href={url} target='_blank' className=""><FaExternalLinkAlt className="absolute top-1 right-1 bg-theme text-white hover:scale-105 text-3xl p-[0.35rem] mx-2 rounded-md hover:cursor-pointer hover:bg-theme-alt transition-all duration-200 inline-block"/></a>
-        <h1 className="text-theme font-bold text-[1.3rem] mr-10 text-center">{title}</h1>
+        <a href={url} target='_blank' className=""><FaExternalLinkAlt className="absolute bottom-1 right-[-3px] bg-theme text-white hover:scale-105 text-2xl p-[0.25rem] mx-2 rounded-md hover:cursor-pointer hover:bg-theme-alt transition-all duration-200 inline-block"/></a>
+        <h1 className="text-theme font-bold text-[1.3rem] text-center">{title}</h1>
         {name?<h2 className="text-theme-cont font-bold underline">{name}</h2>:<></>}
-        <p className="text-sm text-black font-medium text-center my-2">{description}</p>
+        <p className="text-sm text-black font-medium text-center my-2 mx-6">{description}</p>
     </div>
   )
 }
