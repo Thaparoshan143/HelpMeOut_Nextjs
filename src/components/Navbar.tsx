@@ -31,7 +31,7 @@ const NavItem = ({title, link, subItem} : any) =>
                 {
                     subItem.map(({title, url} : any)=>
                     {
-                        return <Link href={link + url} className="p-2 m-small bg-white font-bold rounded-sm w-[10rem] text-sub-tit hover:text-theme-alt transition-all duration-200 ">{title}</Link>
+                        return <Link key={url} href={link + url} className="p-2 m-small bg-white font-bold rounded-sm w-[10rem] text-sub-tit hover:text-theme-alt transition-all duration-200 ">{title}</Link>
                     })
                 }
                 </div> :

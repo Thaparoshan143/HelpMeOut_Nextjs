@@ -9,7 +9,7 @@ export default function DateConversion()
       <div className="grid grid-cols-4 gap-6 place-content-center xl:grid-cols-3 sm:grid-cols-2 text-xl">
       {
         _navItems.map(({title, url, subItem} : any)=> {
-          let link = url;
+          const link = url;
           if(title == "Utilities")
           {
             return subItem.map(({title, url} : any) => {
