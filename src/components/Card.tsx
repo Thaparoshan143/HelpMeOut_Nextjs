@@ -16,10 +16,10 @@ const Card = ({title, name, description, url} : any) =>
 const CardCategory = ({category, description, url} : any) =>
 {
   return (
-    <div className="p-2 px-4 bg-theme hover:shadow-xl min-w-[20rem] w-[20rem] min-h-[12rem] transition-all duration-200 rounded-md flex flex-col justify-evenly items-center opacity-80 hover:opacity-100">
-        <h1 className="text-white font-bold text-2xl text-center uppercase">{category}</h1>
-        {description ? <span className="text-black text-justify my-4">{description}</span> : <></>}
-        <a href={url}  className="bg-white hover:bg-theme-cont hover:text-white p-2 px-4 rounded-md hover:scale-110 transition-all duration-200 ">Explore</a>
+    <div className="p-md bg-theme-a hover:shadow-md min-w-[20rem] w-[20rem] min-h-[12rem] transition-all duration-200 rounded-md flex flex-col justify-between items-center hover:scale-[101%]">
+        <h1 className="text-theme font-bold text-sub-head text-center uppercase bg-background w-full rounded-md">{category}</h1>
+        {description ? <span className="text-white text-small text-justify my-4 px-2">{description}</span> : <></>}
+        <a href={url}  className="bg-white hover:bg-background p-2 px-4 rounded-md font-bold mb-4 font-main-alt">Explore</a>
     </div>
   )
 }

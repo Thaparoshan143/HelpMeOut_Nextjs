@@ -27,8 +27,8 @@ export default function Home()
   })
 
   return (
-    <div className="flex flex-col items-center justify-evenly ">
-      <h1 className="text-3xl text-theme font-bold font-main my-10 underline uppercase">Available Catergories</h1>
+    <div className="flex flex-col items-center justify-evenly font-main w-full">
+      <h1 className="text-heading text-theme font-bold my-10 underline uppercase font-main">Available Catergories</h1>
       <div className="grid grid-cols-4 gap-6 place-content-center xl:grid-cols-3 sm:grid-cols-2">
         {
           catTitles.map((cat, ind) => {
@@ -37,7 +37,6 @@ export default function Home()
         }
       </div>
       <CouldNotFind />
-      <Link href={"/"} className="text-2xl text-white bg-theme inline-block p-2 px-6 rounded-xl hover:px-[5rem] hover:scale-[105%] transition-all duration-200 hover:rounded-[3rem]">Landing Page</Link>
     </div>
   );
 }
@@ -45,10 +44,11 @@ export default function Home()
 const CouldNotFind = () =>
 {
   return (
-    <div className="w-full flex flex-col justify-around items-center h-[8rem] my-4">
-      <hr className="w-[80%] border-theme border-2 rounded-xl"/>
-      <h1><span className="text-theme text-2xl inline-block">Is Something Missing ? </span> Got any other resources you want to <a href={"/contact"} className="p-3 bg-theme hover:bg-theme-alt text-white rounded-xl">recommend</a></h1>
-      <span className="inline-block text-theme text-2xl font-bold">Visit Soon</span>
+    <div className="w-full bg-theme flex flex-col justify-around items-center h-[15rem] pt-10 mt-[8rem] text-white">
+      <h1><span className="text-sub-tit inline-block">Is Something Missing ? </span> Got any other resources you want to <a href={"/contact"} className="p-2 bg-white hover:font-bold text-theme rounded-md">recommend</a></h1>
+      <hr className="w-[20%] border-white border-1 rounded-xl"/>
+      <Link href={"/"} className="text-sub-tit font-bold hover:scale-105 bg-white p-2 px-4 text-theme rounded-md">Landing Page</Link>
+      <hr className="w-[60%] border-white border-1 rounded-xl"/>
     </div>
   )
 }

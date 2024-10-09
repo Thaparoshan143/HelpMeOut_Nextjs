@@ -18,15 +18,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased` + " bg-[#ddd] h-[100vh] min-h-[100vh] flex flex-col justify-around items-center w-full"}
+        className={`antialiased` + " bg-background text-theme"}
       >
         <Image 
           src={Bg}
           alt="bg"
-          className="z-[-5] opacity-30 absolute w-full h-full object-cover"
+          className="z-[-5] opacity-[15%] absolute w-full h-full object-cover"
         />
         <Navbar />
+        <main className="min-h-[100vh] pt-10 flex flex-col justify-around items-center w-full">
         {children}
+        </main>
         <Footer />
       </body>
     </html>

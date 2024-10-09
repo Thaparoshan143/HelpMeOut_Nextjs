@@ -10,12 +10,10 @@ export default function CategoryPage()
 {
     const pathName = usePathname();
     const category = pathName.split("/").pop();
-    // console.log(_subCategoriesItems.find(item => item.title === category))
 
-    // console.log(category);
     return (
        <>
-        <h1 className="text-3xl bg-theme w-full text-center text-white font-bold font-main py-[2.5rem] mb-6 uppercase">{category}</h1>
+        <h1 className="text-heading bg-theme w-full text-center text-white font-bold font-main py-[2.5rem] mb-md uppercase">{category}</h1>
         <div className="flex flex-col justify-evenly items-center w-full">
         {
             _subCategoriesItems.map(({title, items} : any)=>
