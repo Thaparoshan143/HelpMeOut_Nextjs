@@ -4,7 +4,7 @@ export const _subCategoriesItems = [
         items : [
                 {
                     title : "C/C++",
-                    description : "",
+                    description : "Programming Resources for learning C/C++",
                     links : [
                         {
                             title : "Advance programming with C++ pdf",
@@ -16,7 +16,7 @@ export const _subCategoriesItems = [
                 },
                 {
                     title : "Automation (Python)",
-                    description : "",
+                    description : "Resources for automation using python seleniuma and webdriver",
                     links : [
                         {
                             title : "Selenium",
@@ -28,7 +28,7 @@ export const _subCategoriesItems = [
                 },
                 {
                     title : "Debugging",
-                    description : "",
+                    description : "Debugging/breakdown of high level code of different language",
                     links : [
                         {
                             title : "Compiler Explorer",
@@ -44,7 +44,7 @@ export const _subCategoriesItems = [
                 },
                 {
                     title : "OpenGL",
-                    description : "",
+                    description : "Resources of Graphics API OpenGL",
                     links : [
                         {
                             title : "Learn OpenGL",
@@ -70,7 +70,7 @@ export const _subCategoriesItems = [
                 },
                 {
                     title : "Vulkan",
-                    description : "",
+                    description : "Graphics API resources",
                     links : [
                         {
                             title : "Vulkan Tutorials",
@@ -101,7 +101,7 @@ export const _subCategoriesItems = [
                 },
                 {
                     title : "AI/ML",
-                    description : "",
+                    description : "Few resources to refer to",
                     links : [
                         {
                             title : "T-5 Base Model",
@@ -148,7 +148,7 @@ export const _subCategoriesItems = [
                 },
                 {
                     title : "Game Development (Unity)",
-                    description : "",
+                    description : "Some important topics for Game dev",
                     links : [
                         {
                             title : "Unity Editor Scripting",
@@ -169,7 +169,7 @@ export const _subCategoriesItems = [
                 },
                 {
                     title : "Game Development (Unreal)",
-                    description : "",
+                    description : "Resources for Unreal Engine ",
                     links : [
                         {
                             title : "Blueprint For Beginners",
@@ -210,7 +210,7 @@ export const _subCategoriesItems = [
         items : [
             {
                 title : "Blender",
-                description : "",
+                description : "Resources for 3D artist using blender",
                 links : [
                         {
                             title : "Blender Python API",
@@ -256,7 +256,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Assets and Resources",
-                description : "",
+                description : "Place to find the high quality assest to download uable in scene",
                 links : [
                         {
                             title : "Quixel Megascan",
@@ -283,7 +283,7 @@ export const _subCategoriesItems = [
         items : [
             {
                 title : "HTML, CSS & JS",
-                description : "",
+                description : "Leraning of the basics and playground",
                 links : [
                         {
                             title : "Animation CSS Snippets",
@@ -326,7 +326,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "NPM Packages",
-                description : "",
+                description : "Some useful packages for web development project",
                 links : [
                         {
                             title : "Tailwindcss",
@@ -357,7 +357,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Hosting",
-                description : "",
+                description : "Some few hosting platform of the react.js/next.js project with github",
                 links : [
                         {
                             title : "Netlify",
@@ -378,12 +378,17 @@ export const _subCategoriesItems = [
         items : [
             {
                 title : "Nepse Third party",
-                description : "",
+                description : "resources for getting endpoint to access NEPSE listed script info",
                 links : [
                         {
                             title : "Nepalstock onrender",
                             description: "",
                             url : "https://nepalstock.onrender.com/info/"
+                        },
+                        {
+                            title : "nepse-api",
+                            description: "",
+                            url : "https://github.com/the-value-crew/nepse-api"
                         }
                         ]
             }
@@ -392,17 +397,6 @@ export const _subCategoriesItems = [
     {
         title : "github-repos",
         items : [
-            {
-                title : "NEPSE",
-                description : "",
-                links : [
-                    {
-                        title : "nepse-api",
-                        description: "",
-                        url : "https://github.com/the-value-crew/nepse-api"
-                    }
-                ]
-            },
             {
                 title : "Learning",
                 description : "",
@@ -421,7 +415,7 @@ export const _subCategoriesItems = [
         items : [
             {
                 title : "Portfolio",
-                description : "",
+                description : "Create your own website with domain and hosting for free",
                 links : [
                         {
                             title : "Hosting and Domain (.com.np)",
@@ -432,7 +426,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "External resources",
-                description : "",
+                description : "Some resources to refer to ",
                 links : [
                         {
                             title : "Nepalindata",
@@ -481,7 +475,7 @@ export const _subCategoriesItems = [
         items : [
             {
                 title : "Computer Enginnering",
-                description : "",
+                description : "Contains few resources useful in Engineering study journey",
                 links : [
                         {
                             title : "GRE free resource repo",
@@ -493,12 +487,17 @@ export const _subCategoriesItems = [
                             description: "",
                             url : "https://nec.gov.np/uploads/brochure/9cg9z4cTKe220920011047.pdf"
                         },
+                        {
+                            title : "Old Question Collection Engineering",
+                            description: "",
+                            url : "https://acem.edu.np/pages/downloads/old-questions/"
+                        },
 
                         ]
             },
             {
                 title : "Computer Graphics",
-                description : "",
+                description : "References to learning CG",
                 links : [
                         {
                             title : "Real-Time Rendering",
@@ -519,7 +518,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Computer Science",
-                description : "",
+                description : "Other interesting CS study field",
                 links : [
                         {
                             title : "CS Course",
@@ -555,7 +554,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Korean Language Learning",
-                description : "",
+                description : "Basic of korean language and course for begineer in Nepali/English",
                 links : [
                         {
                             title : "Billy Korean",
@@ -603,7 +602,7 @@ export const _subCategoriesItems = [
         items : [
             {
                 title : "Market & Financial Institution",
-                description : "",
+                description : "Few financial key metric information",
                 links : [
                         {
                             title : "Trading View",
@@ -624,7 +623,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Stock Market Analysis",
-                description : "",
+                description : "Resources to refer to for helpful analysis in NEPSE listed scripts",
                 links : [
                         {
                             title : "NEA Power Trade Agreement",
@@ -656,7 +655,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Stock Fiancial Portals",
-                description : "",
+                description : "News portal and Stock related annoucements for NEPSE",
                 links : [
                     {
                         title : "Sharesansar",
@@ -710,7 +709,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Good to Know",
-                description : "",
+                description : "Some info useable in life later on",
                 links : [
                         {
                             title : "Income Tax and rate",
@@ -723,11 +722,11 @@ export const _subCategoriesItems = [
         ]
     },
     {
-        title : "Buy and Sell",
+        title : "buy-and-sell",
         items : [
             {
                 title : "E-commerce",
-                description : "",
+                description : "Site to buy/sell stuffs online ",
                 links : [
                         {
                             title : "Daammi Deal",
@@ -764,7 +763,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Second Hand (Buy/Sell)",
-                description : "",
+                description : "Second hand deals from trustable site",
                 links : [
                         {
                             title : "Sabkophone",
@@ -786,7 +785,7 @@ export const _subCategoriesItems = [
         items : [
             {
                 title : "Subtitles",
-                description : "",
+                description : "Download subtitle for movies",
                 links : [
                         {
                             title : "Subtitle Cat",
@@ -807,7 +806,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Movies Watch Online",
-                description : "",
+                description : "Site for watching movie online",
                 links : [
                         {
                             title : "Desi Cinemas",
@@ -828,7 +827,7 @@ export const _subCategoriesItems = [
             },
             {
                 title : "Download Movies and Drama",
-                description : "",
+                description : "Downloading the movies and drama",
                 links : [
                         {
                             title : "Nkiri",
