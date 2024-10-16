@@ -42,11 +42,11 @@ const Navbar = () => {
         </div> 
         </nav> 
         </> : 
-        <nav className="z-10 relative" onClick={()=>setMobileMenu(!mobileMenu)}>
+        <nav className="z-10 relative" >
             {
                 !mobileMenu ? 
-                <MdMenu className="fixed z-50 bg-background shadow-md rounded-[2rem] p-2 top-5 right-5 h-10 w-10 hover:text-theme-alt cursor-pointer"/> : 
-                <MdClose className="fixed z-50 bg-background shadow-md rounded-[2rem] p-2 top-5 right-5 h-10 w-10 hover:text-theme-alt cursor-pointer" />
+                <MdMenu className="fixed z-50 bg-background shadow-md rounded-[2rem] p-2 top-5 right-5 h-10 w-10 hover:text-theme-alt cursor-pointer" onClick={()=>setMobileMenu(!mobileMenu)}/> : 
+                <MdClose className="fixed z-50 bg-background shadow-md rounded-[2rem] p-2 top-5 right-5 h-10 w-10 hover:text-theme-alt cursor-pointer" onClick={()=>setMobileMenu(!mobileMenu)}/>
             }
             {
                 mobileMenu ? 
@@ -73,10 +73,10 @@ const NavItem = ({title, link, subItem} : any) =>
     const [isHover, setIsHover] = useState(false);
 
     return (
-       <div className="relative flex flex-row justify-evenly items-center"  onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>
-        <Link href={link} className="px-2 text-title font-bold hover:text-theme-alt transition-all duration-200">{title}</Link>
+       <div className="relative flex flex-row justify-evenly items-center">
+        <Link href={link} className="px-2 text-title font-bold hover:text-theme-alt transition-all duration-200" onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>{title}</Link>
        {
-        subItem ? <RiArrowDownSLine className="h-5 w-5" /> : <></>
+        subItem ? <RiArrowDownSLine className="h-5 w-5 cursor-pointer" onMouseDownCapture={()=>setIsHover(!isHover)}/> : <></>
        }
        {
         subItem && isHover ? <div className="z-10 absolute top-[100%] left-0 flex flex-col">
