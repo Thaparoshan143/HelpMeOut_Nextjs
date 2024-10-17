@@ -20,6 +20,10 @@ export const _navItems = [
                 url : "/dateconversion",
             },
             {
+                title : "Time",
+                url : "/time",
+            },
+            {
                 title : "Stock Market",
                 url : "/stockmarket",
             },
