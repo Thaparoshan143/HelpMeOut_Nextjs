@@ -79,7 +79,7 @@ const NavItem = ({title, link, subItem} : any) =>
         subItem ? <RiArrowDownSLine className="h-5 w-5 cursor-pointer" onMouseDownCapture={()=>setIsHover(!isHover)}/> : <></>
        }
        {
-        subItem && isHover ? <div className="z-10 absolute top-[100%] left-0 flex flex-col">
+        subItem && isHover ? <div className="z-10 absolute top-[100%] left-0 flex flex-col" onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>
                 {
                     subItem.map(({title, url} : any)=>
                     {
