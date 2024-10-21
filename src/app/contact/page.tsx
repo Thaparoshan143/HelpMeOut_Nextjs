@@ -16,7 +16,7 @@ export default function Contact()
           <span className="text-sub-tit">Email: <a href="mailto:thaparoshan3722@gmail.com" >thaparoshan3722@gmail.com</a></span>
       </div>
       <hr className="w-[50%] border-theme border-1 rounded-xl my-[2rem]"/>
-      <div className="text-theme font-bold text-sup-head m-6 flex flex-col justify-around items-center min-h-[20vh]"><span>Developed & Designed</span><span> by </span> <span className="font-main uppercase"> Roshan Thapa</span><span className="text-black text-sm m-0 font-light"> with <a className="font-bold underline" href={"https://nextjs.org/"}>Next.js</a> hosted on <a className="font-bold underline" href={"https://vercel.com/home"}>Vercel</a></span> </div>
+      <div className="text-theme font-bold text-heading md:text-sup-head my-6 flex flex-col justify-around items-center text-center min-h-[20vh]"><span>Developed & Designed</span><span> by </span> <span className="font-main uppercase"> Roshan Thapa</span><span className="text-black text-sm m-0 font-light"> with <a className="font-bold underline" href={"https://nextjs.org/"}>Next.js</a> hosted on <a className="font-bold underline" href={"https://vercel.com/home"}>Vercel</a></span> </div>
     </div>
   );
 }

@@ -5,8 +5,8 @@ export default function Popular()
 {
   return (
     <>
-    <h1 className="text-heading text-theme font-bold font-main my-10 uppercase underline">Popular and Hot Picks</h1>
-    <div className="grid grid-cols-1 gap-6 place-content-center lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2">
+    <h1 className="text-sub-head md:text-heading text-theme text-center font-bold font-main my-10 uppercase underline">Popular and Hot Picks</h1>
+    <div className="grid grid-cols-1 gap-4 md:gap-6 place-content-center lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2 mx-auto">
       {_PopularURLItem.map(({title, name, description, url})=>
       {
         return <Card key={title} title={title} name={name} description={description} url={url}/>

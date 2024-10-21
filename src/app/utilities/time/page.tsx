@@ -13,9 +13,9 @@ export default function Time()
 
   return (
     <div className="flex flex-col justify-evenly items-center h-[60vh] w-full">
-      <h1 className="text-black text-xl font-bold uppercase font-main">Current Time</h1>
+      <h1 className="text-theme text-heading md:text-sup-head font-bold uppercase font-main">Current Time</h1>
       {
-        <span className="text-theme text-8xl font-bold uppercase text-center">
+        <span className="p-4 bg-theme text-white text-4xl xl:text-8xl font-bold uppercase text-center">
           {
             currTime.toLocaleUpperCase()
           }

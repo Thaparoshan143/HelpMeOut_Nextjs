@@ -21,7 +21,7 @@ export default function DateConversion()
 
   return (
     <div className="w-full flex flex-col justify-around items-center">
-      <h1 className="text-sup-head text-theme font-bold font-main uppercase underline mb-10">Date Conversion</h1>
+      <h1 className="text-heading md:text-sup-head text-theme font-bold font-main uppercase underline mb-10">Date Conversion</h1>
       <div className="flex md:flex-row flex-col justify-evenly items-center md:items-start w-full">
         <CalendarWrapper>
           <h1 className="text-center text-heading my-4 text-theme font-bold">English</h1>
