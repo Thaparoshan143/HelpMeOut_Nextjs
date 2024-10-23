@@ -619,6 +619,11 @@ export const _subCategoriesItems = [
                             description: "",
                             url : "https://www.gurufocus.com/"
                         },
+                        {
+                            title : "BizSewa",
+                            description: "For Navigation on way through the complexities of Nepali business environment",
+                            url : "https://bizsewa.com/"
+                        },
                         ]
             },
             {
@@ -757,6 +762,21 @@ export const _subCategoriesItems = [
                             title : "Pasal Nepal",
                             description: "",
                             url : "https://pasalnepal.com/"
+                        },
+                        {
+                            title : "Vistaartrade",
+                            description: "Nepals First Online B2B Marketplace",
+                            url : "https://vistaartrade.com/"
+                        },
+                        {
+                            title : "Rasan",
+                            description: "B2B supply chain management company.",
+                            url : "https://rasan.com.np/"
+                        },
+                        {
+                            title : "Turantcall",
+                            description: "Nepal Local search Engine for buy/sell",
+                            url : "https://turantcall.com/"
                         },
 
                         ]
