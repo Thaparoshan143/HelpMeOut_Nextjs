@@ -471,6 +471,16 @@ export const _subCategoriesItems = [
                             description : "All the operation required for the pdf",
                             url : "https://www.i2pdf.com/"
                         },
+                        {
+                            title : "Archieve",
+                            description : "Book/Pdf/Other resources archieve",
+                            url : "https://archive.org/"
+                        },
+                        {
+                            title : "Arxiv",
+                            description : "Book/Pdf/Other online resources archieve",
+                            url : "https://arxiv.org/"
+                        },
                         ]
             }
         ]
