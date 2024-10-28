@@ -812,6 +812,7 @@ export const _subCategoriesItems = [
     },
     {
         title : "entertainment",
+        note : "These third party sites are subject to have ads! Tips : Enable the ad blocker",
         items : [
             {
                 title : "Subtitles",

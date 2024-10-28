@@ -16,14 +16,22 @@ export default function CategoryPage()
         <h1 className="text-heading bg-theme w-full text-center text-white font-bold font-main py-[2.5rem] mb-md uppercase">{category}</h1>
         <div className="flex flex-col justify-evenly items-center w-full">
         {
-            _subCategoriesItems.map(({title, items} : any)=>
+            _subCategoriesItems.map(({title, note, items} : any)=>
             {
                 if (title === category)
                 {
-                    return items.map(({title, description, links} : any)=>
-                    {
-                        return <CardSubCategory key={title} title={title} description={description} links={links} />
-                    })
+
+                    return (
+                        <>
+                        {note ? <h1 className="bg-white w-[80%] text-center rounded-md p-2 shadow-inner mb-6 shadow-gray-400">{note}</h1> : <></>}
+                        {
+                            items.map(({title, description, links} : any)=>
+                            {
+                                return <CardSubCategory key={title} title={title} description={description} links={links} />
+                            })
+                        }
+                        </>
+                        )
                 }
             })
         }
