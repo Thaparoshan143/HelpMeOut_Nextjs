@@ -89,7 +89,7 @@ export const _subCategoriesItems = [
                         },
                         {
                             title : "Setup Vulkan on MacOS",
-                            description: "",
+                            description: "tutorial for setting up vulkan on macOS YT",
                             url : "https://www.youtube.com/watch?v=C7YgtkR9KLg&t=58s&ab_channel=LuTheCoder"
                         },
                         {
@@ -287,7 +287,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Animation CSS Snippets",
-                            description: "",
+                            description: "Get the CSS code snippets for the effects.",
                             url : "https://animista.net/"
                         },
                         {
@@ -303,7 +303,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "React.js for beginner",
-                            description: "",
+                            description: "Guide for learning React.js YT",
                             url : "https://www.youtube.com/watch?v=x_x5LkW6IXs"
                         },
                         {
@@ -318,9 +318,9 @@ export const _subCategoriesItems = [
                 description : "",
                 links : [
                         {
-                            title : "Animation CSS Snippets",
-                            description: "",
-                            url : "https://animista.net/"
+                            title : "Next.js docs",
+                            description: "docs for learning Next.js",
+                            url : "https://nextjs.org/"
                         }
                         ]
             },
@@ -361,12 +361,12 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Netlify",
-                            description: "",
+                            description: "Hosting platform for web project",
                             url : "https://www.netlify.com/"
                         },
                         {
                             title : "Vercel",
-                            description: "",
+                            description: "Hosting for web project",
                             url : "https://vercel.com/"
                         }
                         ]
@@ -382,12 +382,12 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Nepalstock onrender",
-                            description: "",
+                            description: "endpoint for getting company few details",
                             url : "https://nepalstock.onrender.com/info/"
                         },
                         {
                             title : "nepse-api",
-                            description: "",
+                            description: "git repo for endpoint for nepse (external)",
                             url : "https://github.com/the-value-crew/nepse-api"
                         }
                         ]
@@ -403,7 +403,7 @@ export const _subCategoriesItems = [
                 links : [
                     {
                         title : "Project based Learning",
-                        description: "",
+                        description: "project to assit the learning process of different languages",
                         url : "https://github.com/practical-tutorials/project-based-learning?tab=readme-ov-file"
                     }
                 ]
@@ -419,7 +419,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Hosting and Domain (.com.np)",
-                            description: "",
+                            description: "YT guide to get your own domain",
                             url : "https://www.youtube.com/watch?v=JXN_NhJFo_M"
                         }
                         ]
@@ -430,7 +430,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Nepalindata",
-                            description: "",
+                            description: "Few data sources in nepal",
                             url : "https://www.nepalindata.com/"
                         },
                         {
@@ -446,7 +446,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Developer Roadmap",
-                            description: "",
+                            description: "Guide and Roadmap for software career/skill path",
                             url : "https://roadmap.sh/"
                         },
   
@@ -465,6 +465,11 @@ export const _subCategoriesItems = [
                             title : "Online Compiler",
                             description: "",
                             url : "https://www.onlinegdb.com/"
+                        },
+                        {
+                            title : "PDF Operation",
+                            description : "All the operation required for the pdf",
+                            url : "https://www.i2pdf.com/"
                         },
                         ]
             }
@@ -501,7 +506,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Real-Time Rendering",
-                            description: "",
+                            description: "Must read book for Computer graphics",
                             url : "https://www.realtimerendering.com/"
                         },
                         {
@@ -579,7 +584,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Nosh Nepal",
-                            description: "",
+                            description: "Find the resturant around different places in nepal",
                             url : "https://noshnepal.com/"
                         }
                         ]
@@ -611,7 +616,7 @@ export const _subCategoriesItems = [
                         },
                         {
                             title : "Bank Byaj",
-                            description: "",
+                            description: "Portal to access the BFIs info/details",
                             url : "https://bankbyaj.com/"
                         },
                         {
@@ -706,8 +711,13 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Home Appliance",
-                            description: "",
+                            description: "Guide to what is good appliance for you",
                             url : "https://www.youtube.com/@BoulevardHome/featured"
+                        },
+                        {
+                            title : "Fruits and Vegetable (Kalimati)",
+                            description: "Fruits and Vegetables Markets wholesale. Price Inspection..",
+                            url : "https://kalimatimarket.gov.np/"
                         },
 
                         ]
@@ -718,7 +728,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Income Tax and rate",
-                            description: "",
+                            description: "Must know taxation system in nepal",
                             url : "https://www.youtube.com/watch?v=aPzJ0_7FfsM&ab_channel=DreamBusiness%3ACASurajDhakal"
                         },
 
@@ -787,7 +797,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Sabkophone",
-                            description: "",
+                            description: "Reliable vendor for buying the second hand/refurbished phone",
                             url : "https://sabkophone.com/"
                         },
                         {
@@ -830,17 +840,17 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Desi Cinemas",
-                            description: "",
+                            description: "Site for indian movies",
                             url : "https://desicinemas.tv/"
                         },
                         {
                             title : "The Flixer",
-                            description: "",
+                            description: "Global movies",
                             url : "https://theflixer.se/home"
                         },
                         {
                             title : "Kdrama",
-                            description: "",
+                            description: "korean drama and movies",
                             url : "https://kdramahood.com/"
                         },
                         ]
@@ -851,7 +861,7 @@ export const _subCategoriesItems = [
                 links : [
                         {
                             title : "Nkiri",
-                            description: "",
+                            description: "Kdrama movies and others.",
                             url : "https://nkiriiii.jamsbase.com/"
                         },
                         {
