@@ -7,6 +7,11 @@ export const _subCategoriesItems = [
                     description : "Programming Resources for learning C/C++",
                     links : [
                         {
+                            title : "Learn C++",
+                            description: "Reading resources for C++ (Recommended)",
+                            url : "https://www.learncpp.com/"
+                        },
+                        {
                             title : "Advance programming with C++ pdf",
                             description: "pdf from cambridge university",
                             url : "http://www.cs.ukzn.ac.za/~hughm/ap/notes/apNotes.pdf"
@@ -506,6 +511,11 @@ export const _subCategoriesItems = [
                             title : "Old Question Collection Engineering",
                             description: "",
                             url : "https://acem.edu.np/pages/downloads/old-questions/"
+                        },
+                        {
+                            title : "Lecture Notes",
+                            description: "pvpsiddhartha",
+                            url : "https://www.pvpsiddhartha.ac.in/dep_it/lecture%20notes/itlecture.html"
                         },
 
                         ]
