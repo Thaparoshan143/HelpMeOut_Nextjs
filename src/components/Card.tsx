@@ -29,7 +29,7 @@ const CardSubCategory = ({title, description, links} : any) =>
   return (
     <>
     <h1 className="text-black font-bold text-2xl text-center my-2 underline">{title}</h1>
-    <p className="mb-2">{description}</p>
+    <p className="mb-2 px-4 md:px-0">{description}</p>
     <div className="grid grid-cols-1 gap-6 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2">
         {
           links ? links.map(({title, description, url} : any)=>

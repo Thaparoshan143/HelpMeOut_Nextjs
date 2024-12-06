@@ -4,7 +4,7 @@ import { LuConstruction } from "react-icons/lu";
 export default function PageConstruction() 
 {
   return (
-    <div className="flex flex-col justify-between items-center min-h-[50vh] my-[5rem] w-full">
+    <div className="flex flex-col justify-between items-center min-h-[50vh] my-[5rem] w-full text-center">
       <hr className="w-[90%] border-theme border-[1.25px] rounded-xl my-2"/>
       <h1 className="text-2xl text-black font-bold font-main uppercase">OOPS! <span className="text-theme text-4xl">Page Under Construction</span></h1>
       <LuConstruction className="text-theme text-[8rem] md:text-[12rem] m-4" />

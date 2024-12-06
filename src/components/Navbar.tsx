@@ -55,7 +55,7 @@ const Navbar = () => {
                     {
                         _navItems.map(({title, url, subItem})=>
                             {
-                                return <NavItem key={url} title={title} link={url} subItem={subItem} />
+                                return <NavItem key={url} title={title} link={url} subItem={subItem} toggleMenu={(val : boolean) =>setMobileMenu(val)} />
                             })
                     }
                     </div> 
@@ -68,13 +68,13 @@ const Navbar = () => {
   )
 }
 
-const NavItem = ({title, link, subItem} : any) =>
+const NavItem = ({title, link, subItem, toggleMenu} : any) =>
 {
     const [isHover, setIsHover] = useState(false);
 
     return (
-       <div className="relative flex flex-row justify-evenly items-center">
-        <Link href={link} className="px-2 text-title font-bold hover:text-theme-alt transition-all duration-200" onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>{title}</Link>
+       <div className="relative flex flex-row justify-evenly items-center" >
+        <Link href={link} onClick={!subItem ? ()=> toggleMenu(false) : ()=> toggleMenu(true)} className="px-2 text-title font-bold hover:text-theme-alt transition-all duration-200" onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)}>{title}</Link>
        {
         subItem ? <RiArrowDownSLine className="h-5 w-5 cursor-pointer" onMouseDownCapture={()=>setIsHover(!isHover)}/> : <></>
        }
@@ -83,7 +83,7 @@ const NavItem = ({title, link, subItem} : any) =>
                 {
                     subItem.map(({title, url} : any)=>
                     {
-                        return <Link key={url} href={link + url} className="p-2 m-small bg-white font-bold rounded-sm w-[10rem] text-sub-tit hover:text-theme-alt transition-all duration-200 ">{title}</Link>
+                        return <Link key={url} href={link + url} onClick={() => toggleMenu(false)} className="p-2 m-small bg-white font-bold rounded-sm w-[10rem] text-sub-tit hover:text-theme-alt transition-all duration-200 ">{title}</Link>
                     })
                 }
                 </div> :

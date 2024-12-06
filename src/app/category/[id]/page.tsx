@@ -14,7 +14,7 @@ export default function CategoryPage()
     return (
        <>
         <h1 className="text-heading bg-theme w-full text-center text-white font-bold font-main py-[2.5rem] mb-md uppercase">{category}</h1>
-        <div className="flex flex-col justify-evenly items-center w-full">
+        <div className="flex flex-col justify-evenly items-center w-full text-center">
         {
             _subCategoriesItems.map(({title, note, items} : any)=>
             {
