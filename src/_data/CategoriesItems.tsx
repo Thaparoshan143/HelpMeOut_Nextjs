@@ -467,6 +467,11 @@ export const _subCategoriesItems = [
                             url : "https://puter.com/app/editor"
                         },
                         {
+                            title : "Files Compression",
+                            description: "youcompress",
+                            url : "https://www.youcompress.com/"
+                        },
+                        {
                             title : "Online Compiler",
                             description: "",
                             url : "https://www.onlinegdb.com/"
@@ -549,6 +554,16 @@ export const _subCategoriesItems = [
                             title : "CS Course",
                             description: "Associate Professor of Computer Science at Memorial University YT",
                             url : "https://www.youtube.com/@DaveChurchill/featured"
+                        },
+                        {
+                            title : "Operating System and System Programming",
+                            description: "OS detailed lecture YT",
+                            url : "https://www.youtube.com/playlist?list=PLF2K2xZjNEf97A_uBCwEl61sdxWVP7VWC"
+                        },
+                        {
+                            title : "COA and OS",
+                            description: "Concept/Understaing of COA and OS through short video YT",
+                            url : "https://www.youtube.com/@CoreDumpped/featured"
                         },
                         {
                             title : "CS, CG ML and Art",
